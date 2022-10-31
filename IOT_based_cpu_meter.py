@@ -1,10 +1,10 @@
 import psutil
 from boltiot import Bolt
 
-api_key = "XXXXXXXXXXXXXXXXXXXXXXX"
-d_id = "XXXXXXXX"
+# api_key = "XXXXXXXXXXXXXXXXXXXXXXX"
+# d_id = "XXXXXXXX"
 
-cpu_red_threshold = 50
+cpu_red_threshold = 100
 client= Bolt(api_key, d_id)
 
 #interval in seconds to check cpu usage
